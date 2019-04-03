@@ -1,0 +1,3 @@
+<?php 
+$nombreEmpresa = "Distribuidora Divetsa"
+?>

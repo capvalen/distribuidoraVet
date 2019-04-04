@@ -52,7 +52,7 @@
 								<td><button class="btn btn-outline-primary"><ion-icon name="create"></ion-icon></button></td>
 							</tr>
 							<tr>
-								<td>3</td>
+								<td>4</td>
 								<td><a href="productos.php?idProducto=15">BALSAMO BLANCO 100Gr</a></td>
 								<td>S/ 31.80</td>
 								<td>53</td>

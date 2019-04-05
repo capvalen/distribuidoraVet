@@ -43,14 +43,14 @@
 <!-- Fin Sidebar  -->
 			
 <!--Barra de Menú-->
-<nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #a35bb4">
+<nav class="navbar navbar-expand-lg navbar-dark pb-1 " style="background-color: #a35bb4">
 	<div class="container-fluid">
 		<button type="button" id="sidebarCollapse" class="btn btn-outline-light tieneMostrar mr-3 px-2" >
 				<i class="icofont-navigation-menu"></i>
 		</button>
 										
 		<a class="navbar-brand" href="#!" id="btnBrand">
-			<img src="images/logoCorto.png" width="35" height="35" class="d-inline-block align-top" alt="">
+			<img src="images/logoCorto.png" width="60" height="60" class="d-inline-block align-top mt-n3" alt="">
 			Infocat Soluciones
 		</a>
 		<button class="btn btn-outline-light d-inline-block d-lg-none ml-auto px-2" id="btnSubNavegacion" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

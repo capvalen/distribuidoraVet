@@ -23,8 +23,8 @@
 				<li <?php if($nomArchivo =='creditos.php') echo 'class="active"'; ?>>
 						<a href="creditos.php" class="d-flex align-items-center"><ion-icon name="paper"></ion-icon> <span class="liText">Créditos</span></a>
 				</li>
-				<li>
-						<a href="#" class="d-flex align-items-center"><ion-icon name="cart"></ion-icon> <span class="liText">Ventas</span></a>
+				<li <?php if($nomArchivo =='ventas.php') echo 'class="active"'; ?>>
+						<a href="ventas.php" class="d-flex align-items-center"><ion-icon name="cart"></ion-icon> <span class="liText">Ventas</span></a>
 				</li>
 				<li>
 						<a href="#" class="d-flex align-items-center"><ion-icon name="document"></ion-icon> <span class="liText">Reportes</span></a>

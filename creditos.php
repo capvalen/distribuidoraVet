@@ -52,7 +52,7 @@
 						<td>01/04/2019</td>
 						<td>S/ 500.00</td>
 						<td>Carlos</td>
-						<td><button class="btn btn-outline-primary btn-sm"><ion-icon name="code-working"></ion-icon></button></td>
+						<td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
 					</tr>
 					<tr>
 						<td>2</td>
@@ -60,7 +60,7 @@
 						<td>02/04/2019</td>
 						<td>S/ 162.50</td>
 						<td>Jimmy</td>
-						<td><button class="btn btn-outline-primary btn-sm"><ion-icon name="code-working"></ion-icon></button></td>
+						<td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
 					</tr>
 					<tr>
 						<td>3</td>
@@ -68,7 +68,7 @@
 						<td>25/03/2019</td>
 						<td>S/ 263.80</td>
 						<td>Carlos</td>
-						<td><button class="btn btn-outline-primary btn-sm"><ion-icon name="code-working"></ion-icon></button></td>
+						<td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
 					</tr>
 					</tbody>
 					</table>
@@ -94,7 +94,7 @@
 						<td>12/01/2019</td>
 						<td>S/ 36.00</td>
 						<td>Jimmy</td>
-						<td><button class="btn btn-outline-primary btn-sm"><ion-icon name="code-working"></ion-icon></button></td>
+						<td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
 					</tr>
 					<tr>
 						<td>2</td>
@@ -103,7 +103,7 @@
 						<td>14/02/2019</td>
 						<td>S/ 91.50</td>
 						<td>Carlos</td>
-						<td><button class="btn btn-outline-primary btn-sm"><ion-icon name="code-working"></ion-icon></button></td>
+						<td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
 					</tr>
 					<tr>
 						<td>3</td>
@@ -112,7 +112,7 @@
 						<td>16/02/2019</td>
 						<td>S/ 314.80</td>
 						<td>Carlos</td>
-						<td><button class="btn btn-outline-primary btn-sm"><ion-icon name="code-working"></ion-icon></button></td>
+						<td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
 					</tr>
 					<tr>
 						<td>4</td>
@@ -121,7 +121,7 @@
 						<td>01/04/2019</td>
 						<td>S/ 314.80</td>
 						<td>Jimmy</td>
-						<td><button class="btn btn-outline-primary btn-sm"><ion-icon name="code-working"></ion-icon></button></td>
+						<td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
 					</tr>
 					</tbody>
 					</table>
@@ -147,7 +147,7 @@
 						<td>12/06/2019</td>
 						<td>S/ 36.00</td>
 						<td>Jimmy</td>
-						<td><button class="btn btn-outline-primary btn-sm"><ion-icon name="code-working"></ion-icon></button></td>
+						<td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
 					</tr>
 					<tr>
 						<td>2</td>
@@ -156,7 +156,7 @@
 						<td>14/05/2019</td>
 						<td>S/ 91.50</td>
 						<td>Carlos</td>
-						<td><button class="btn btn-outline-primary btn-sm"><ion-icon name="code-working"></ion-icon></button></td>
+						<td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
 					</tr>
 					<tr>
 						<td>3</td>
@@ -165,7 +165,7 @@
 						<td>10/02/2019</td>
 						<td>S/ 314.80</td>
 						<td>Carlos</td>
-						<td><button class="btn btn-outline-primary btn-sm"><ion-icon name="code-working"></ion-icon></button></td>
+						<td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
 					</tr>
 					<tr>
 						<td>4</td>
@@ -174,7 +174,7 @@
 						<td>18/04/2019</td>
 						<td>S/ 314.80</td>
 						<td>Jimmy</td>
-						<td><button class="btn btn-outline-primary btn-sm"><ion-icon name="code-working"></ion-icon></button></td>
+						<td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
 					</tr>
 					</tbody>
 					</table>
@@ -200,6 +200,7 @@ $(document).ready(function () {
 	});
 	$('.selectpicker').selectpicker('render');
 	$('.selectpicker').selectpicker('val', -1);
+	$('button[data-toggle="tooltip"]').tooltip();
 });
 $('#sltFiltroClientes').change(function() {
 	$('.table').addClass('d-none');

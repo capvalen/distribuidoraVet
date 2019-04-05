@@ -16,12 +16,49 @@
   <div class="card">
     <div class="card-body">
       <h2 class="purple-text text-darken-1"><i class="icofont-users-alt-1"></i> Clínica Veterinaria Pancho Cavero <small>Cliente</small></h2>
+        <p>RUC: 20602657486</p>
+        <p>Dirección: Av. República de Panamá 6584 - Lima</p>
+        <p>Teléfono: (01) 4466179</p>
+        <p>Correo: informes@pachovet.com</p>
+        <p>Celular de contacto: 936 283 095 (Alex)</p>
         <p>Antigüedad: 2 meses</p>
     
         <div class="line"></div>
     
-        <h2>Lorem Ipsum Dolor</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2>Ficha de créditos</h2>
+        <div class="table-responsive">
+          <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>N°</th>
+              <th>Estado</th>
+              <th>Fecha</th>
+              <th>Monto</th>
+              <th>Vendedor</th>
+              <th>@</th>
+            </tr>
+					</thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td class="red-text text-darken-1">Vence 3 meses</td>
+              <td>12/06/2019</td>
+              <td>S/ 36.00</td>
+              <td>Jimmy</td>
+              <td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td class="blue-text text-accent-3">Cobrado</td>
+              <td>14/02/2019</td>
+              <td>S/ 91.50</td>
+              <td>Carlos</td>
+              <td><button class="btn btn-outline-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Ver detalle"><ion-icon name="code-working"></ion-icon></button></td>
+            </tr>
+          </tbody>
+          </table>
+        </div>
+
     </div> <!-- Fin de card body  -->
   </div>
     
@@ -42,6 +79,7 @@ $(document).ready(function () {
 	});
 	$('.selectpicker').selectpicker('render');
 	$('.selectpicker').selectpicker('val', -1);
+  $('button[data-toggle="tooltip"]').tooltip();
 });
 </script>
 </body>

@@ -8,6 +8,10 @@
 
 
 <script>
+$("#sidebar").mCustomScrollbar({
+	theme: "minimal-dark",
+	mouseWheelPixels: 200
+});
 $('#dismiss, .overlay').on('click', function () {
 		ocultarPanel()
 	});

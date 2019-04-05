@@ -35,28 +35,28 @@
 								<td><a href="productos.php?idProducto=15">ACEITE DE GERMEN DE TRIGO CAJA 250gr</a></td>
 								<td>S/ 50.50</td>
 								<td>9</td>
-								<td><button class="btn btn-outline-primary"><ion-icon name="create"></ion-icon></button></td>
+								<td><a href="productos.php?idProducto=15" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Ver más"><ion-icon name="code-working"></ion-icon></a></td>
 							</tr>
 							<tr>
 								<td>2</td>
 								<td><a href="productos.php?idProducto=15">ASUNTOL JABÓN 125gr</a></td>
 								<td>S/ 21.90</td>
 								<td>15</td>
-								<td><button class="btn btn-outline-primary"><ion-icon name="create"></ion-icon></button></td>
+								<td><a href="productos.php?idProducto=15" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Ver más"><ion-icon name="code-working"></ion-icon></a></td>
 							</tr>
 							<tr>
 								<td>3</td>
 								<td><a href="productos.php?idProducto=15">ALLERMYL SHAMPOO 400ml</a></td>
 								<td>S/ 14.50</td>
 								<td>13</td>
-								<td><button class="btn btn-outline-primary"><ion-icon name="create"></ion-icon></button></td>
+								<td><a href="productos.php?idProducto=15" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Ver más"><ion-icon name="code-working"></ion-icon></a></td>
 							</tr>
 							<tr>
 								<td>4</td>
 								<td><a href="productos.php?idProducto=15">BALSAMO BLANCO 100Gr</a></td>
 								<td>S/ 31.80</td>
 								<td>53</td>
-								<td><button class="btn btn-outline-primary"><ion-icon name="create"></ion-icon></button></td>
+								<td><a href="productos.php?idProducto=15" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Ver más"><ion-icon name="code-working"></ion-icon></a></td>
 							</tr>
 						</tbody>
 					</table>
@@ -88,5 +88,8 @@
 
 
 <?php include "footer.php"; ?>
+<script>
+$('button[data-toggle="tooltip"]').tooltip();
+</script>
   </body>
 </html>
